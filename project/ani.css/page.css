@@ -1,0 +1,581 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 100%;
+    height: 200vh;
+    background: url("../images/img6.webp");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header .top{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    display: flex;
+}
+.heading{
+    width: 50%;
+    height: 100%;
+   /* background-color: burlywood;*/
+}
+.heading h1{
+    margin: 0;
+    padding: 0;
+    line-height: 100px;
+    padding-left: 40px;
+}
+.heading h1:hover{
+    cursor: pointer;
+}
+.links{
+    width: 50%;
+    height: 100%;
+  /* background-color: cadetblue;*/
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+.links ul{
+    display: flex;
+    list-style: none;
+    gap:40px;
+
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.links input[type=button]{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(204, 165, 92);
+    
+}
+/* hover effect */
+ li a:hover{
+    color: rgb(190, 144, 58);
+
+}
+.links input[type=button]:hover{
+    background-color: orange;
+    color: #fff;
+    
+}
+
+.title{
+    width: 100%;
+    height: 900px;
+    display: flex;
+   /* background-color: blue;*/
+    justify-content: center;
+    align-items: center;
+}
+.title .main{
+    width: 50%;
+    height: 500px;
+   /* background-color: chartreuse;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    gap: 10px;
+    flex-direction: column;
+    
+}
+.main h1{
+    margin: 0;
+    padding: 0;
+    font-size: 10em;
+    animation-name: fresco;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    position: relative;
+    top:-100px;
+    font-weight: 200;
+    color: #fff;
+    
+}
+@keyframes fresco {
+    0%{
+        top:-100px;
+    
+    }
+    100%{
+        top: 0px;
+        
+    
+    }
+    
+}
+
+.main p{
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    color: #fff;
+}
+.main p:nth-child(2){
+    color: orange;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+   background: url("../images/img4.jpg");
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+
+}
+.info-box,
+.info-box1{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.wine{
+    width: 90%;
+    height: 500px;
+  /* background-color: cornflowerblue;*/
+    display: flex;
+
+}
+.left1{
+    width: 35%;
+    height: 100%;
+    
+}
+.left1 h1:nth-child(2){
+    font-size: 3.5em;
+}
+.left1 button{
+    width: 40%;
+    height: 50px;
+    border-radius: 40px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1em;
+    color: #eadede;
+    
+}
+
+/* hover effect*/
+.left1 button:hover{
+    background-color: rgb(158, 131, 35);
+    color:#fff;
+    animation-name: niche;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    position: relative;
+    top:10px;
+    cursor: pointer;
+}
+
+@keyframes niche {
+    0%{
+        top:10px;
+    
+    }
+    100%{
+        top: 0px;
+    
+    }
+    
+}
+
+.right1{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    gap: 60px;
+
+}
+.right1 .img1{
+    width: 70%;
+    height: 100%;
+    
+}
+.right .img2{
+    width: 50%;
+    height: 80%;
+    
+    
+    
+    
+}
+.img1 img,
+.img2 img{
+    width: 100%;
+    height: 90%;
+    
+    
+}
+.img2 img{
+    box-shadow: 0px 2px 30px black;
+}
+.info-box1 .wine1{
+    width: 60%;
+    height: 500px;
+ /*  background-color: cornflowerblue;*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.wine1 img{
+    width: 200px;
+    height: 200px;
+}
+.wine1 h1:nth-child(1){
+    margin: 0;
+    padding: 0;
+    font-size: 5em;
+}
+.wine1 h1:nth-child(2){
+    font-size: 2em;
+}
+.wine1 p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.1em;
+    color: rgb(71, 64, 64);
+}
+.menu{
+    width: 100%;
+    height: 250vh;
+    background: url("../images/img7.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+
+}
+.menu-box{
+    width: 90%;
+    height: 75%;
+    background-color: brown;
+
+    
+    
+    
+}
+.mbox{
+    width: 100%;
+    height: 348px;
+    box-sizing: border-box;
+    display: flex;
+    border:1px solid orange;
+}
+.price{
+    width: 100%;
+    height: 100%;
+    background-color:#c7ece8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(214, 133, 52);
+    
+}
+.price h1{
+    font-weight: 100;
+}
+.price p{
+    text-align: center;
+    color: rgb(84, 74, 74);
+}
+.price h2:nth-child(4){
+    margin: 0;
+    padding: 0;
+}
+span{
+    width: 20%;
+    height: 10%;
+}
+.menu-image{
+    width: 100%;
+    height: 100%;
+    background-color:antiquewhite;
+    
+}
+.menu-image img{
+    width: 100%;
+    height:100%;
+}
+.menu button{
+    width:20%;
+    height: 5%;
+    background-color: rgb(255, 149, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1em;
+    color: #a8dbd6;
+    border-radius: 40px;
+
+}
+
+/* hover effect*/
+.menu button:hover{
+    background-color: rgb(158, 131, 35);
+    color:#fff;
+    animation-name: niche;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    position: relative;
+    top:10px;
+    cursor: pointer;
+}
+
+@keyframes niche {
+    0%{
+        top:10px;
+    
+    }
+    100%{
+        top: 0px;
+    
+    }
+    
+}
+.member{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: end;
+}
+.team{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    gap: 60px;
+
+}
+.limg{
+    width: 50%;
+    height: 100%;
+    background: url("../images/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.635);
+}
+.imginfo{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(10, 7, 7);
+    opacity: 0.6;
+
+    
+    
+}
+.imginfo h1{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+}
+.rinfo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rinfo h1{
+    font-size: 3em;
+}
+.rinfo button{
+    width: 200px;
+    height: 50px;
+    background-color:rgb(255, 149, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1em;
+    border-radius: 40px;
+    color: #a8dbd6;
+}
+.rinfo button:hover{
+    background-color: rgb(158, 131, 35);
+    color:#fff;
+    animation-name: niche;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    position: relative;
+    top:10px;
+    cursor: pointer;
+}
+
+@keyframes niche {
+    0%{
+        top:10px;
+    
+    }
+    100%{
+        top: 0px;
+    
+    }
+    
+}
+.tdetail{
+    width: 100%;
+    height: 175vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-box{
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.icon{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: end;
+}
+.icon img{
+    width: 100px;
+    height: 100px;
+    
+}
+.happy{
+    width: 60%;
+    height: 50px;
+    
+    
+}
+.happy h1{
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    font-size: 2.5em;
+}
+.img-customer{
+    width: 150px;
+    height: 150px;
+    
+}
+.img-customer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.right-box{
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.right-box .img-customer{
+    width: 150px;
+    height: 150px;
+}
+.right-box .img-customer img
+.right-box .img-customer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.right-box .fonts{
+    width: 60%;
+    height: 50px;
+    
+}
+.fonts ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    
+}
+.fonts ul li{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    
+}
+/* hover */
+.fonts ul li:hover{
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+footer{
+    width: 100%;
+    height: 350px;
+    background: url("../images/img17.jpg");
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+
+}
+footer h1{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+footer p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 1.em;
+}
+
+
+
+
+
